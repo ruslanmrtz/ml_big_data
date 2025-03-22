@@ -1,0 +1,115 @@
+[2025-03-21T19:27:34.467+0500] {processor.py:186} INFO - Started process (PID=141030) to work on /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:27:34.468+0500] {processor.py:914} INFO - Processing file /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-03-21T19:27:34.469+0500] {logging_mixin.py:190} INFO - [2025-03-21T19:27:34.469+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:27:34.507+0500] {processor.py:927} WARNING - No viable dags retrieved from /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:27:34.513+0500] {processor.py:208} INFO - Processing /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.049 seconds
+[2025-03-21T19:28:31.629+0500] {processor.py:186} INFO - Started process (PID=141341) to work on /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:28:31.630+0500] {processor.py:914} INFO - Processing file /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-03-21T19:28:31.632+0500] {logging_mixin.py:190} INFO - [2025-03-21T19:28:31.631+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:28:31.667+0500] {processor.py:927} WARNING - No viable dags retrieved from /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:28:31.673+0500] {processor.py:208} INFO - Processing /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.047 seconds
+[2025-03-21T19:29:24.059+0500] {processor.py:186} INFO - Started process (PID=141603) to work on /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:29:24.060+0500] {processor.py:914} INFO - Processing file /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-03-21T19:29:24.061+0500] {logging_mixin.py:190} INFO - [2025-03-21T19:29:24.061+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:29:24.097+0500] {processor.py:927} WARNING - No viable dags retrieved from /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:29:24.102+0500] {processor.py:208} INFO - Processing /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.047 seconds
+[2025-03-21T19:30:20.551+0500] {processor.py:186} INFO - Started process (PID=141883) to work on /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:30:20.552+0500] {processor.py:914} INFO - Processing file /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-03-21T19:30:20.553+0500] {logging_mixin.py:190} INFO - [2025-03-21T19:30:20.553+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:30:20.583+0500] {processor.py:927} WARNING - No viable dags retrieved from /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:30:20.589+0500] {processor.py:208} INFO - Processing /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.042 seconds
+[2025-03-21T19:31:12.831+0500] {processor.py:186} INFO - Started process (PID=142145) to work on /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:31:12.833+0500] {processor.py:914} INFO - Processing file /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-03-21T19:31:12.834+0500] {logging_mixin.py:190} INFO - [2025-03-21T19:31:12.834+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:31:12.862+0500] {processor.py:927} WARNING - No viable dags retrieved from /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:31:12.868+0500] {processor.py:208} INFO - Processing /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.040 seconds
+[2025-03-21T19:32:04.718+0500] {processor.py:186} INFO - Started process (PID=142410) to work on /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:32:04.720+0500] {processor.py:914} INFO - Processing file /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-03-21T19:32:04.722+0500] {logging_mixin.py:190} INFO - [2025-03-21T19:32:04.721+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:32:04.764+0500] {processor.py:927} WARNING - No viable dags retrieved from /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:32:04.771+0500] {processor.py:208} INFO - Processing /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.056 seconds
+[2025-03-21T19:32:54.537+0500] {processor.py:186} INFO - Started process (PID=150735) to work on /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:32:54.538+0500] {processor.py:914} INFO - Processing file /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-03-21T19:32:54.540+0500] {logging_mixin.py:190} INFO - [2025-03-21T19:32:54.539+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:32:54.588+0500] {processor.py:927} WARNING - No viable dags retrieved from /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:32:54.596+0500] {processor.py:208} INFO - Processing /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.065 seconds
+[2025-03-21T19:33:48.068+0500] {processor.py:186} INFO - Started process (PID=154086) to work on /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:33:48.069+0500] {processor.py:914} INFO - Processing file /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-03-21T19:33:48.071+0500] {logging_mixin.py:190} INFO - [2025-03-21T19:33:48.070+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:33:48.108+0500] {processor.py:927} WARNING - No viable dags retrieved from /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:33:48.114+0500] {processor.py:208} INFO - Processing /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.049 seconds
+[2025-03-21T19:34:41.977+0500] {processor.py:186} INFO - Started process (PID=154394) to work on /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:34:41.978+0500] {processor.py:914} INFO - Processing file /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-03-21T19:34:41.979+0500] {logging_mixin.py:190} INFO - [2025-03-21T19:34:41.979+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:34:42.017+0500] {processor.py:927} WARNING - No viable dags retrieved from /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:34:42.024+0500] {processor.py:208} INFO - Processing /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.050 seconds
+[2025-03-21T19:35:33.586+0500] {processor.py:186} INFO - Started process (PID=154656) to work on /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:35:33.587+0500] {processor.py:914} INFO - Processing file /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-03-21T19:35:33.589+0500] {logging_mixin.py:190} INFO - [2025-03-21T19:35:33.588+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:35:33.625+0500] {processor.py:927} WARNING - No viable dags retrieved from /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:35:33.631+0500] {processor.py:208} INFO - Processing /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.049 seconds
+[2025-03-21T19:36:23.777+0500] {processor.py:186} INFO - Started process (PID=154914) to work on /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:36:23.778+0500] {processor.py:914} INFO - Processing file /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-03-21T19:36:23.780+0500] {logging_mixin.py:190} INFO - [2025-03-21T19:36:23.780+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:36:23.820+0500] {processor.py:927} WARNING - No viable dags retrieved from /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:36:23.827+0500] {processor.py:208} INFO - Processing /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.054 seconds
+[2025-03-21T19:37:15.137+0500] {processor.py:186} INFO - Started process (PID=155393) to work on /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:37:15.138+0500] {processor.py:914} INFO - Processing file /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-03-21T19:37:15.139+0500] {logging_mixin.py:190} INFO - [2025-03-21T19:37:15.139+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:37:15.176+0500] {processor.py:927} WARNING - No viable dags retrieved from /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:37:15.183+0500] {processor.py:208} INFO - Processing /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.049 seconds
+[2025-03-21T19:38:07.059+0500] {processor.py:186} INFO - Started process (PID=155906) to work on /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:38:07.060+0500] {processor.py:914} INFO - Processing file /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-03-21T19:38:07.061+0500] {logging_mixin.py:190} INFO - [2025-03-21T19:38:07.061+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:38:07.097+0500] {processor.py:927} WARNING - No viable dags retrieved from /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:38:07.102+0500] {processor.py:208} INFO - Processing /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.046 seconds
+[2025-03-21T19:38:59.208+0500] {processor.py:186} INFO - Started process (PID=156339) to work on /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:38:59.209+0500] {processor.py:914} INFO - Processing file /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-03-21T19:38:59.210+0500] {logging_mixin.py:190} INFO - [2025-03-21T19:38:59.209+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:38:59.247+0500] {processor.py:927} WARNING - No viable dags retrieved from /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:38:59.253+0500] {processor.py:208} INFO - Processing /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.050 seconds
+[2025-03-21T19:39:51.363+0500] {processor.py:186} INFO - Started process (PID=156770) to work on /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:39:51.364+0500] {processor.py:914} INFO - Processing file /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-03-21T19:39:51.365+0500] {logging_mixin.py:190} INFO - [2025-03-21T19:39:51.365+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:39:51.401+0500] {processor.py:927} WARNING - No viable dags retrieved from /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:39:51.408+0500] {processor.py:208} INFO - Processing /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.048 seconds
+[2025-03-21T19:40:43.802+0500] {processor.py:186} INFO - Started process (PID=157264) to work on /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:40:43.803+0500] {processor.py:914} INFO - Processing file /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-03-21T19:40:43.805+0500] {logging_mixin.py:190} INFO - [2025-03-21T19:40:43.804+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:40:43.842+0500] {processor.py:927} WARNING - No viable dags retrieved from /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:40:43.849+0500] {processor.py:208} INFO - Processing /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.050 seconds
+[2025-03-21T19:41:39.138+0500] {processor.py:186} INFO - Started process (PID=157838) to work on /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:41:39.139+0500] {processor.py:914} INFO - Processing file /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-03-21T19:41:39.140+0500] {logging_mixin.py:190} INFO - [2025-03-21T19:41:39.140+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:41:39.175+0500] {processor.py:927} WARNING - No viable dags retrieved from /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:41:39.180+0500] {processor.py:208} INFO - Processing /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.046 seconds
+[2025-03-21T19:42:30.731+0500] {processor.py:186} INFO - Started process (PID=158354) to work on /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:42:30.732+0500] {processor.py:914} INFO - Processing file /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-03-21T19:42:30.733+0500] {logging_mixin.py:190} INFO - [2025-03-21T19:42:30.733+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:42:30.768+0500] {processor.py:927} WARNING - No viable dags retrieved from /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:42:30.774+0500] {processor.py:208} INFO - Processing /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.046 seconds
+[2025-03-21T19:43:26.870+0500] {processor.py:186} INFO - Started process (PID=159048) to work on /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:43:26.871+0500] {processor.py:914} INFO - Processing file /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-03-21T19:43:26.872+0500] {logging_mixin.py:190} INFO - [2025-03-21T19:43:26.872+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:43:26.909+0500] {processor.py:927} WARNING - No viable dags retrieved from /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:43:26.916+0500] {processor.py:208} INFO - Processing /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.049 seconds
+[2025-03-21T19:44:18.866+0500] {processor.py:186} INFO - Started process (PID=159581) to work on /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:44:18.867+0500] {processor.py:914} INFO - Processing file /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-03-21T19:44:18.868+0500] {logging_mixin.py:190} INFO - [2025-03-21T19:44:18.868+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:44:18.915+0500] {processor.py:927} WARNING - No viable dags retrieved from /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:44:18.922+0500] {processor.py:208} INFO - Processing /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.061 seconds
+[2025-03-21T19:45:11.646+0500] {processor.py:186} INFO - Started process (PID=160136) to work on /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:45:11.647+0500] {processor.py:914} INFO - Processing file /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-03-21T19:45:11.648+0500] {logging_mixin.py:190} INFO - [2025-03-21T19:45:11.648+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:45:11.686+0500] {processor.py:927} WARNING - No viable dags retrieved from /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:45:11.692+0500] {processor.py:208} INFO - Processing /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.050 seconds
+[2025-03-21T19:46:03.590+0500] {processor.py:186} INFO - Started process (PID=160664) to work on /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:46:03.591+0500] {processor.py:914} INFO - Processing file /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-03-21T19:46:03.592+0500] {logging_mixin.py:190} INFO - [2025-03-21T19:46:03.591+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:46:03.632+0500] {processor.py:927} WARNING - No viable dags retrieved from /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:46:03.639+0500] {processor.py:208} INFO - Processing /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.052 seconds
+[2025-03-21T19:46:57.390+0500] {processor.py:186} INFO - Started process (PID=161293) to work on /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:46:57.391+0500] {processor.py:914} INFO - Processing file /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-03-21T19:46:57.392+0500] {logging_mixin.py:190} INFO - [2025-03-21T19:46:57.391+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:46:57.434+0500] {processor.py:927} WARNING - No viable dags retrieved from /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-03-21T19:46:57.442+0500] {processor.py:208} INFO - Processing /home/ruslan/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.056 seconds

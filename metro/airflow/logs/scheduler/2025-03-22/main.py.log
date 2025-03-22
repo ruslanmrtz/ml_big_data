@@ -1,0 +1,557 @@
+[2025-03-22T10:06:36.898+0500] {processor.py:186} INFO - Started process (PID=17476) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:06:36.898+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T10:06:36.900+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:06:36.899+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:06:36.905+0500] {processor.py:925} INFO - DAG(s) 'train_dag' retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:06:36.968+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:06:36.968+0500] {override.py:1930} INFO - Created Permission View: can delete on DAG:train_dag
+[2025-03-22T10:06:36.978+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:06:36.978+0500] {override.py:1930} INFO - Created Permission View: can read on DAG:train_dag
+[2025-03-22T10:06:36.986+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:06:36.986+0500] {override.py:1930} INFO - Created Permission View: can edit on DAG:train_dag
+[2025-03-22T10:06:36.998+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:06:36.998+0500] {override.py:1930} INFO - Created Permission View: can create on DAG Run:train_dag
+[2025-03-22T10:06:37.006+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:06:37.005+0500] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:train_dag
+[2025-03-22T10:06:37.013+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:06:37.012+0500] {override.py:1930} INFO - Created Permission View: can read on DAG Run:train_dag
+[2025-03-22T10:06:37.019+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:06:37.019+0500] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:train_dag
+[2025-03-22T10:06:37.020+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:06:37.020+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T10:06:37.026+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:06:37.026+0500] {dag.py:3262} INFO - Creating ORM DAG for train_dag
+[2025-03-22T10:06:37.030+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:06:37.030+0500] {dag.py:4180} INFO - Setting next_dagrun for train_dag to None, run_after=None
+[2025-03-22T10:06:37.043+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.149 seconds
+[2025-03-22T10:07:41.364+0500] {processor.py:186} INFO - Started process (PID=18115) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:07:41.365+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T10:07:41.367+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:07:41.367+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:07:41.371+0500] {processor.py:925} INFO - DAG(s) 'train_dag' retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:07:41.379+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:07:41.379+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T10:07:41.390+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:07:41.390+0500] {dag.py:4180} INFO - Setting next_dagrun for train_dag to None, run_after=None
+[2025-03-22T10:07:41.404+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.044 seconds
+[2025-03-22T10:08:36.873+0500] {processor.py:186} INFO - Started process (PID=18753) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:08:36.874+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T10:08:36.875+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:08:36.875+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:08:36.880+0500] {processor.py:925} INFO - DAG(s) 'train_dag' retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:08:36.888+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:08:36.888+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T10:08:36.899+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:08:36.899+0500] {dag.py:4180} INFO - Setting next_dagrun for train_dag to None, run_after=None
+[2025-03-22T10:08:36.914+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.044 seconds
+[2025-03-22T10:09:29.338+0500] {processor.py:186} INFO - Started process (PID=19266) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:09:29.340+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T10:09:29.341+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:09:29.341+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:09:29.345+0500] {processor.py:925} INFO - DAG(s) 'train_dag' retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:09:29.353+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:09:29.353+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T10:09:29.364+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:09:29.363+0500] {dag.py:4180} INFO - Setting next_dagrun for train_dag to None, run_after=None
+[2025-03-22T10:09:29.379+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.044 seconds
+[2025-03-22T10:10:24.981+0500] {processor.py:186} INFO - Started process (PID=19856) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:10:24.982+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T10:10:24.984+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:10:24.984+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:10:24.989+0500] {processor.py:925} INFO - DAG(s) 'train_dag' retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:10:24.998+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:10:24.998+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T10:10:25.010+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:10:25.009+0500] {dag.py:4180} INFO - Setting next_dagrun for train_dag to None, run_after=None
+[2025-03-22T10:10:25.025+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.049 seconds
+[2025-03-22T10:11:19.121+0500] {processor.py:186} INFO - Started process (PID=20448) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:11:19.122+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T10:11:19.124+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:11:19.123+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:11:19.128+0500] {processor.py:925} INFO - DAG(s) 'train_dag' retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:11:19.137+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:11:19.137+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T10:11:19.149+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:11:19.149+0500] {dag.py:4180} INFO - Setting next_dagrun for train_dag to None, run_after=None
+[2025-03-22T10:11:19.164+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.047 seconds
+[2025-03-22T10:12:10.853+0500] {processor.py:186} INFO - Started process (PID=20943) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:12:10.854+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T10:12:10.855+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:12:10.855+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:12:10.860+0500] {processor.py:925} INFO - DAG(s) 'train_dag' retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:12:10.868+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:12:10.868+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T10:12:10.880+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:12:10.880+0500] {dag.py:4180} INFO - Setting next_dagrun for train_dag to None, run_after=None
+[2025-03-22T10:12:10.895+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.047 seconds
+[2025-03-22T10:13:00.687+0500] {processor.py:186} INFO - Started process (PID=21458) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:13:00.688+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T10:13:00.689+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:13:00.689+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:13:00.694+0500] {processor.py:925} INFO - DAG(s) 'train_dag' retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:13:00.701+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:13:00.701+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T10:13:00.711+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:13:00.711+0500] {dag.py:4180} INFO - Setting next_dagrun for train_dag to None, run_after=None
+[2025-03-22T10:13:00.727+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.044 seconds
+[2025-03-22T10:13:53.698+0500] {processor.py:186} INFO - Started process (PID=22036) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:13:53.699+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T10:13:53.700+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:13:53.700+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:13:53.706+0500] {processor.py:925} INFO - DAG(s) 'train_dag' retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:13:53.715+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:13:53.715+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T10:13:53.726+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:13:53.726+0500] {dag.py:4180} INFO - Setting next_dagrun for train_dag to None, run_after=None
+[2025-03-22T10:13:53.741+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.048 seconds
+[2025-03-22T10:14:46.197+0500] {processor.py:186} INFO - Started process (PID=22541) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:14:46.199+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T10:14:46.200+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:14:46.200+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:14:46.204+0500] {processor.py:925} INFO - DAG(s) 'train_dag' retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:14:46.213+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:14:46.212+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T10:14:46.224+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:14:46.224+0500] {dag.py:4180} INFO - Setting next_dagrun for train_dag to None, run_after=None
+[2025-03-22T10:14:46.238+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.045 seconds
+[2025-03-22T10:15:40.083+0500] {processor.py:186} INFO - Started process (PID=23134) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:15:40.084+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T10:15:40.086+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:15:40.086+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:15:40.090+0500] {processor.py:925} INFO - DAG(s) 'train_dag' retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:15:40.099+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:15:40.099+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T10:15:40.109+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:15:40.109+0500] {dag.py:4180} INFO - Setting next_dagrun for train_dag to None, run_after=None
+[2025-03-22T10:15:40.124+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.045 seconds
+[2025-03-22T10:16:28.790+0500] {processor.py:186} INFO - Started process (PID=23635) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:16:28.792+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T10:16:28.793+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:16:28.793+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:16:28.797+0500] {processor.py:925} INFO - DAG(s) 'train_dag' retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:16:28.805+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:16:28.805+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T10:16:28.816+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:16:28.816+0500] {dag.py:4180} INFO - Setting next_dagrun for train_dag to None, run_after=None
+[2025-03-22T10:16:28.830+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.043 seconds
+[2025-03-22T10:17:18.975+0500] {processor.py:186} INFO - Started process (PID=24225) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:17:18.976+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T10:17:18.978+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:17:18.977+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:17:18.982+0500] {processor.py:925} INFO - DAG(s) 'train_dag' retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:17:18.990+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:17:18.990+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T10:17:19.000+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:17:19.000+0500] {dag.py:4180} INFO - Setting next_dagrun for train_dag to None, run_after=None
+[2025-03-22T10:17:19.015+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.043 seconds
+[2025-03-22T10:18:12.532+0500] {processor.py:186} INFO - Started process (PID=24728) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:18:12.533+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T10:18:12.534+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:18:12.534+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:18:12.539+0500] {processor.py:925} INFO - DAG(s) 'train_dag' retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:18:12.547+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:18:12.546+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T10:18:12.557+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:18:12.557+0500] {dag.py:4180} INFO - Setting next_dagrun for train_dag to None, run_after=None
+[2025-03-22T10:18:12.572+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.044 seconds
+[2025-03-22T10:19:01.620+0500] {processor.py:186} INFO - Started process (PID=25251) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:19:01.621+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T10:19:01.622+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:19:01.622+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:19:01.627+0500] {processor.py:925} INFO - DAG(s) 'train_dag' retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:19:01.634+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:19:01.634+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T10:19:01.645+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:19:01.644+0500] {dag.py:4180} INFO - Setting next_dagrun for train_dag to None, run_after=None
+[2025-03-22T10:19:01.660+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.043 seconds
+[2025-03-22T10:19:55.201+0500] {processor.py:186} INFO - Started process (PID=25846) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:19:55.203+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T10:19:55.205+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:19:55.204+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:19:55.211+0500] {processor.py:925} INFO - DAG(s) 'train_dag' retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:19:55.225+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:19:55.225+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T10:19:55.246+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:19:55.246+0500] {dag.py:4180} INFO - Setting next_dagrun for train_dag to None, run_after=None
+[2025-03-22T10:19:55.265+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.069 seconds
+[2025-03-22T10:20:44.320+0500] {processor.py:186} INFO - Started process (PID=26346) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:20:44.321+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T10:20:44.322+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:20:44.322+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:20:44.327+0500] {processor.py:925} INFO - DAG(s) 'train_dag' retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:20:44.335+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:20:44.335+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T10:20:44.348+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:20:44.347+0500] {dag.py:4180} INFO - Setting next_dagrun for train_dag to None, run_after=None
+[2025-03-22T10:20:44.362+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.046 seconds
+[2025-03-22T10:21:38.583+0500] {processor.py:186} INFO - Started process (PID=26949) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:21:38.584+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T10:21:38.586+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:21:38.585+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:21:38.590+0500] {processor.py:925} INFO - DAG(s) 'train_dag' retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:21:38.598+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:21:38.598+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T10:21:38.609+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:21:38.609+0500] {dag.py:4180} INFO - Setting next_dagrun for train_dag to None, run_after=None
+[2025-03-22T10:21:38.625+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.045 seconds
+[2025-03-22T10:22:33.184+0500] {processor.py:186} INFO - Started process (PID=27487) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:22:33.186+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T10:22:33.187+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:22:33.187+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:22:33.192+0500] {processor.py:925} INFO - DAG(s) 'train_dag' retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:22:33.201+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:22:33.201+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T10:22:33.213+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:22:33.213+0500] {dag.py:4180} INFO - Setting next_dagrun for train_dag to None, run_after=None
+[2025-03-22T10:22:33.229+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.048 seconds
+[2025-03-22T10:23:24.502+0500] {processor.py:186} INFO - Started process (PID=28091) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:23:24.503+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T10:23:24.504+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:23:24.504+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:23:24.509+0500] {processor.py:925} INFO - DAG(s) 'train_dag' retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:23:24.517+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:23:24.517+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T10:23:24.528+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:23:24.528+0500] {dag.py:4180} INFO - Setting next_dagrun for train_dag to None, run_after=None
+[2025-03-22T10:23:24.543+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.044 seconds
+[2025-03-22T10:24:17.572+0500] {processor.py:186} INFO - Started process (PID=28605) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:24:17.573+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T10:24:17.575+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:24:17.575+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:24:17.580+0500] {processor.py:925} INFO - DAG(s) 'train_dag' retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:24:17.591+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:24:17.590+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T10:24:17.605+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:24:17.604+0500] {dag.py:4180} INFO - Setting next_dagrun for train_dag to None, run_after=None
+[2025-03-22T10:24:17.620+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.053 seconds
+[2025-03-22T10:25:05.448+0500] {processor.py:186} INFO - Started process (PID=29200) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:25:05.449+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T10:25:05.450+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:25:05.450+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:25:05.455+0500] {processor.py:925} INFO - DAG(s) 'train_dag' retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:25:05.463+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:25:05.462+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T10:25:05.473+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:25:05.473+0500] {dag.py:4180} INFO - Setting next_dagrun for train_dag to None, run_after=None
+[2025-03-22T10:25:05.488+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.043 seconds
+[2025-03-22T10:25:58.523+0500] {processor.py:186} INFO - Started process (PID=29733) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:25:58.524+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T10:25:58.526+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:25:58.525+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:25:58.530+0500] {processor.py:925} INFO - DAG(s) 'train_dag' retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:25:58.538+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:25:58.538+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T10:25:58.548+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:25:58.548+0500] {dag.py:4180} INFO - Setting next_dagrun for train_dag to None, run_after=None
+[2025-03-22T10:25:58.562+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.043 seconds
+[2025-03-22T10:26:50.762+0500] {processor.py:186} INFO - Started process (PID=30803) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:26:50.763+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T10:26:50.765+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:26:50.765+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:26:50.769+0500] {processor.py:925} INFO - DAG(s) 'train_dag' retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:26:50.778+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:26:50.778+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T10:26:50.790+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:26:50.790+0500] {dag.py:4180} INFO - Setting next_dagrun for train_dag to None, run_after=None
+[2025-03-22T10:26:50.805+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.047 seconds
+[2025-03-22T10:27:42.100+0500] {processor.py:186} INFO - Started process (PID=31389) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:27:42.101+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T10:27:42.102+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:27:42.102+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:27:42.107+0500] {processor.py:925} INFO - DAG(s) 'train_dag' retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:27:42.115+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:27:42.115+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T10:27:42.125+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:27:42.125+0500] {dag.py:4180} INFO - Setting next_dagrun for train_dag to None, run_after=None
+[2025-03-22T10:27:42.141+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.045 seconds
+[2025-03-22T10:28:07.789+0500] {processor.py:186} INFO - Started process (PID=31717) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:28:07.790+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T10:28:07.791+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:28:07.791+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:28:07.797+0500] {processor.py:925} INFO - DAG(s) 'train_dag' retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:28:07.806+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:28:07.806+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T10:28:07.819+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:28:07.819+0500] {dag.py:4180} INFO - Setting next_dagrun for train_dag to None, run_after=None
+[2025-03-22T10:28:07.835+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.052 seconds
+[2025-03-22T10:28:33.181+0500] {processor.py:186} INFO - Started process (PID=31992) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:28:33.182+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T10:28:33.184+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:28:33.183+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:28:33.185+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:28:33.185+0500] {dagbag.py:387} ERROR - Failed to import: /home/ruslan/metro/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/ruslan/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ruslan/metro/airflow/dags/main.py", line 41
+    print(f'Recall для данной модели: {recall_score(y_test, lr_pred, average='micro'):.2f}')
+                                                                                            ^^^^^
+SyntaxError: f-string: unmatched '('
+[2025-03-22T10:28:33.186+0500] {processor.py:927} WARNING - No viable dags retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:28:33.200+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.023 seconds
+[2025-03-22T10:29:01.343+0500] {processor.py:186} INFO - Started process (PID=32242) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:29:01.343+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T10:29:01.344+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:29:01.344+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:29:01.346+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:29:01.346+0500] {dagbag.py:387} ERROR - Failed to import: /home/ruslan/metro/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/ruslan/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ruslan/metro/airflow/dags/main.py", line 41
+    print(f'Recall для данной модели: {recall_score(y_test, lr_pred, average='micro'):.2f}')
+                                                                                            ^^^^^
+SyntaxError: f-string: unmatched '('
+[2025-03-22T10:29:01.346+0500] {processor.py:927} WARNING - No viable dags retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:29:01.361+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.022 seconds
+[2025-03-22T10:29:27.213+0500] {processor.py:186} INFO - Started process (PID=32380) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:29:27.214+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T10:29:27.215+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:29:27.215+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:29:27.218+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:29:27.217+0500] {dagbag.py:387} ERROR - Failed to import: /home/ruslan/metro/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/ruslan/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ruslan/metro/airflow/dags/main.py", line 40
+    with open('metric.txt', 'a')
+                                ^
+SyntaxError: expected ':'
+[2025-03-22T10:29:27.218+0500] {processor.py:927} WARNING - No viable dags retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:29:27.234+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.026 seconds
+[2025-03-22T10:30:18.734+0500] {processor.py:186} INFO - Started process (PID=32888) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:30:18.736+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T10:30:18.737+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:30:18.736+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:30:18.739+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:30:18.738+0500] {dagbag.py:387} ERROR - Failed to import: /home/ruslan/metro/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/ruslan/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ruslan/metro/airflow/dags/main.py", line 40
+    with open('metric.txt', 'a')
+                                ^
+SyntaxError: expected ':'
+[2025-03-22T10:30:18.739+0500] {processor.py:927} WARNING - No viable dags retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:30:18.752+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.021 seconds
+[2025-03-22T10:31:11.399+0500] {processor.py:186} INFO - Started process (PID=33434) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:31:11.400+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T10:31:11.401+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:31:11.400+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:31:11.403+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:31:11.402+0500] {dagbag.py:387} ERROR - Failed to import: /home/ruslan/metro/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/ruslan/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ruslan/metro/airflow/dags/main.py", line 45
+    print(f'Recall для данной модели: {recall_score(y_test, lr_pred, average='micro'):.2f}')
+                                                                                            ^^^^^
+SyntaxError: f-string: unmatched '('
+[2025-03-22T10:31:11.403+0500] {processor.py:927} WARNING - No viable dags retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:31:11.416+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.021 seconds
+[2025-03-22T10:31:35.942+0500] {processor.py:186} INFO - Started process (PID=33573) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:31:35.943+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T10:31:35.943+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:31:35.943+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:31:35.945+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:31:35.945+0500] {dagbag.py:387} ERROR - Failed to import: /home/ruslan/metro/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/ruslan/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ruslan/metro/airflow/dags/main.py", line 45
+    file.write(f'Recall для данной модели: {recall_score(y_test, lr_pred, average='micro'):.2f}')
+                                                                                                 ^^^^^
+SyntaxError: f-string: unmatched '('
+[2025-03-22T10:31:35.946+0500] {processor.py:927} WARNING - No viable dags retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:31:35.959+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.021 seconds
+[2025-03-22T10:32:29.452+0500] {processor.py:186} INFO - Started process (PID=34351) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:32:29.453+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T10:32:29.454+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:32:29.454+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:32:29.460+0500] {processor.py:925} INFO - DAG(s) 'train_dag' retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:32:29.522+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:32:29.521+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T10:32:29.532+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:32:29.532+0500] {dag.py:4180} INFO - Setting next_dagrun for train_dag to None, run_after=None
+[2025-03-22T10:32:29.558+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.111 seconds
+[2025-03-22T10:32:43.556+0500] {processor.py:186} INFO - Started process (PID=34562) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:32:43.556+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T10:32:43.558+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:32:43.558+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:32:43.564+0500] {processor.py:925} INFO - DAG(s) 'train_dag' retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:32:43.569+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:32:43.568+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T10:32:43.581+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:32:43.580+0500] {dag.py:4180} INFO - Setting next_dagrun for train_dag to None, run_after=None
+[2025-03-22T10:32:43.596+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.044 seconds
+[2025-03-22T10:33:39.137+0500] {processor.py:186} INFO - Started process (PID=35195) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:33:39.138+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T10:33:39.139+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:33:39.139+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:33:39.144+0500] {processor.py:925} INFO - DAG(s) 'train_dag' retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:33:39.152+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:33:39.152+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T10:33:39.162+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:33:39.162+0500] {dag.py:4180} INFO - Setting next_dagrun for train_dag to None, run_after=None
+[2025-03-22T10:33:39.177+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.044 seconds
+[2025-03-22T10:34:27.190+0500] {processor.py:186} INFO - Started process (PID=35819) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:34:27.192+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T10:34:27.193+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:34:27.193+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:34:27.197+0500] {processor.py:925} INFO - DAG(s) 'train_dag' retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:34:27.205+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:34:27.205+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T10:34:27.216+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:34:27.216+0500] {dag.py:4180} INFO - Setting next_dagrun for train_dag to None, run_after=None
+[2025-03-22T10:34:27.287+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.101 seconds
+[2025-03-22T10:35:14.538+0500] {processor.py:186} INFO - Started process (PID=36352) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:35:14.539+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T10:35:14.541+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:35:14.540+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:35:14.545+0500] {processor.py:925} INFO - DAG(s) 'train_dag' retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:35:14.553+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:35:14.553+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T10:35:14.563+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:35:14.563+0500] {dag.py:4180} INFO - Setting next_dagrun for train_dag to None, run_after=None
+[2025-03-22T10:35:14.578+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.043 seconds
+[2025-03-22T10:36:03.616+0500] {processor.py:186} INFO - Started process (PID=36934) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:36:03.618+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T10:36:03.619+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:36:03.619+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:36:03.624+0500] {processor.py:925} INFO - DAG(s) 'train_dag' retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:36:03.632+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:36:03.632+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T10:36:03.644+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:36:03.644+0500] {dag.py:4180} INFO - Setting next_dagrun for train_dag to None, run_after=None
+[2025-03-22T10:36:03.659+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.046 seconds
+[2025-03-22T10:36:53.236+0500] {processor.py:186} INFO - Started process (PID=37321) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:36:53.238+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T10:36:53.239+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:36:53.239+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:36:53.243+0500] {processor.py:925} INFO - DAG(s) 'train_dag' retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:36:53.251+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:36:53.251+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T10:36:53.262+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:36:53.262+0500] {dag.py:4180} INFO - Setting next_dagrun for train_dag to None, run_after=None
+[2025-03-22T10:36:53.277+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.044 seconds
+[2025-03-22T10:37:45.965+0500] {processor.py:186} INFO - Started process (PID=37593) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:37:45.966+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T10:37:45.967+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:37:45.967+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:37:45.969+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:37:45.969+0500] {dagbag.py:387} ERROR - Failed to import: /home/ruslan/metro/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/ruslan/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ruslan/metro/airflow/dags/main.py", line 10
+    import skelarn.metrics import accuracy_score, recall_score, f1_score
+                           ^^^^^^
+SyntaxError: invalid syntax
+[2025-03-22T10:37:45.969+0500] {processor.py:927} WARNING - No viable dags retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:37:45.983+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.022 seconds
+[2025-03-22T10:38:06.214+0500] {processor.py:186} INFO - Started process (PID=38007) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:38:06.215+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T10:38:06.216+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:38:06.216+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:38:06.816+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:38:06.816+0500] {dagbag.py:387} ERROR - Failed to import: /home/ruslan/metro/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/ruslan/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ruslan/metro/airflow/dags/main.py", line 10, in <module>
+    from skelarn.metrics import accuracy_score, recall_score, f1_score
+ModuleNotFoundError: No module named 'skelarn'
+[2025-03-22T10:38:06.816+0500] {processor.py:927} WARNING - No viable dags retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:38:06.828+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.617 seconds
+[2025-03-22T10:38:25.287+0500] {processor.py:186} INFO - Started process (PID=38277) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:38:25.289+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T10:38:25.290+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:38:25.290+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:38:25.581+0500] {processor.py:925} INFO - DAG(s) 'train_dag' retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:38:25.595+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:38:25.594+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T10:38:25.700+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:38:25.700+0500] {dag.py:4180} INFO - Setting next_dagrun for train_dag to None, run_after=None
+[2025-03-22T10:38:25.732+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.449 seconds
+[2025-03-22T10:39:22.499+0500] {processor.py:186} INFO - Started process (PID=39027) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:39:22.500+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T10:39:22.501+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:39:22.501+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:39:22.862+0500] {processor.py:925} INFO - DAG(s) 'train_dag' retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:39:22.869+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:39:22.869+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T10:39:22.879+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:39:22.878+0500] {dag.py:4180} INFO - Setting next_dagrun for train_dag to None, run_after=None
+[2025-03-22T10:39:22.893+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.398 seconds
+[2025-03-22T10:40:12.266+0500] {processor.py:186} INFO - Started process (PID=39617) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:40:12.267+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T10:40:12.268+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:40:12.268+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:40:12.636+0500] {processor.py:925} INFO - DAG(s) 'train_dag' retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:40:12.642+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:40:12.642+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T10:40:12.652+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:40:12.652+0500] {dag.py:4180} INFO - Setting next_dagrun for train_dag to None, run_after=None
+[2025-03-22T10:40:12.667+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.405 seconds
+[2025-03-22T10:41:05.871+0500] {processor.py:186} INFO - Started process (PID=40285) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:41:05.872+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T10:41:05.874+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:41:05.873+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:41:06.251+0500] {processor.py:925} INFO - DAG(s) 'train_dag' retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:41:06.258+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:41:06.257+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T10:41:06.268+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:41:06.268+0500] {dag.py:4180} INFO - Setting next_dagrun for train_dag to None, run_after=None
+[2025-03-22T10:41:06.282+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.415 seconds
+[2025-03-22T10:41:38.296+0500] {processor.py:186} INFO - Started process (PID=40567) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:41:38.297+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T10:41:38.299+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:41:38.299+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:41:38.657+0500] {processor.py:925} INFO - DAG(s) 'train_dag' retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:41:38.665+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:41:38.665+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T10:41:38.760+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:41:38.760+0500] {dag.py:4180} INFO - Setting next_dagrun for train_dag to None, run_after=None
+[2025-03-22T10:41:38.774+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.483 seconds
+[2025-03-22T10:42:08.893+0500] {processor.py:186} INFO - Started process (PID=41066) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:42:08.894+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T10:42:08.895+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:42:08.895+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:42:09.259+0500] {processor.py:925} INFO - DAG(s) 'train_dag' retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:42:09.265+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:42:09.265+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T10:42:09.274+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:42:09.274+0500] {dag.py:4180} INFO - Setting next_dagrun for train_dag to None, run_after=None
+[2025-03-22T10:42:09.289+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.400 seconds
+[2025-03-22T10:43:01.960+0500] {processor.py:186} INFO - Started process (PID=41643) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:43:01.961+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T10:43:01.962+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:43:01.962+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:43:02.323+0500] {processor.py:925} INFO - DAG(s) 'train_dag' retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:43:02.330+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:43:02.330+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T10:43:02.339+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:43:02.339+0500] {dag.py:4180} INFO - Setting next_dagrun for train_dag to None, run_after=None
+[2025-03-22T10:43:02.354+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.398 seconds
+[2025-03-22T10:43:59.201+0500] {processor.py:186} INFO - Started process (PID=42367) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:43:59.202+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T10:43:59.203+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:43:59.203+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:43:59.573+0500] {processor.py:925} INFO - DAG(s) 'train_dag' retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:43:59.580+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:43:59.580+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T10:43:59.590+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:43:59.590+0500] {dag.py:4180} INFO - Setting next_dagrun for train_dag to None, run_after=None
+[2025-03-22T10:43:59.604+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.407 seconds
+[2025-03-22T10:44:53.361+0500] {processor.py:186} INFO - Started process (PID=42981) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:44:53.362+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T10:44:53.364+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:44:53.363+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:44:53.737+0500] {processor.py:925} INFO - DAG(s) 'train_dag' retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:44:53.743+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:44:53.743+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T10:44:53.754+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:44:53.753+0500] {dag.py:4180} INFO - Setting next_dagrun for train_dag to None, run_after=None
+[2025-03-22T10:44:53.768+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.410 seconds
+[2025-03-22T10:45:47.675+0500] {processor.py:186} INFO - Started process (PID=43696) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:45:47.676+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T10:45:47.677+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:45:47.677+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:45:48.105+0500] {processor.py:925} INFO - DAG(s) 'train_dag' retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:45:48.115+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:45:48.114+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T10:45:48.126+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:45:48.126+0500] {dag.py:4180} INFO - Setting next_dagrun for train_dag to None, run_after=None
+[2025-03-22T10:45:48.141+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.470 seconds
+[2025-03-22T10:46:45.859+0500] {processor.py:186} INFO - Started process (PID=44402) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:46:45.861+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T10:46:45.862+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:46:45.862+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:46:46.228+0500] {processor.py:925} INFO - DAG(s) 'train_dag' retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:46:46.235+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:46:46.234+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T10:46:46.245+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:46:46.244+0500] {dag.py:4180} INFO - Setting next_dagrun for train_dag to None, run_after=None
+[2025-03-22T10:46:46.259+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.403 seconds
+[2025-03-22T10:47:42.298+0500] {processor.py:186} INFO - Started process (PID=45124) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:47:42.299+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T10:47:42.300+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:47:42.300+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:47:42.665+0500] {processor.py:925} INFO - DAG(s) 'train_dag' retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:47:42.672+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:47:42.672+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T10:47:42.682+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:47:42.682+0500] {dag.py:4180} INFO - Setting next_dagrun for train_dag to None, run_after=None
+[2025-03-22T10:47:42.697+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.402 seconds
+[2025-03-22T10:48:33.661+0500] {processor.py:186} INFO - Started process (PID=45757) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:48:33.662+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T10:48:33.663+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:48:33.663+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:48:34.070+0500] {processor.py:925} INFO - DAG(s) 'train_dag' retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T10:48:34.077+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:48:34.077+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T10:48:34.087+0500] {logging_mixin.py:190} INFO - [2025-03-22T10:48:34.087+0500] {dag.py:4180} INFO - Setting next_dagrun for train_dag to None, run_after=None
+[2025-03-22T10:48:34.102+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.446 seconds
+[2025-03-22T12:46:31.490+0500] {processor.py:186} INFO - Started process (PID=808) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T12:46:31.490+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T12:46:31.491+0500] {logging_mixin.py:190} INFO - [2025-03-22T12:46:31.491+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T12:46:32.112+0500] {processor.py:925} INFO - DAG(s) 'train_dag' retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T12:46:32.124+0500] {logging_mixin.py:190} INFO - [2025-03-22T12:46:32.124+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T12:46:32.222+0500] {logging_mixin.py:190} INFO - [2025-03-22T12:46:32.222+0500] {dag.py:4180} INFO - Setting next_dagrun for train_dag to None, run_after=None
+[2025-03-22T12:46:32.236+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.750 seconds
+[2025-03-22T12:47:27.812+0500] {processor.py:186} INFO - Started process (PID=1179) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T12:47:27.813+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T12:47:27.815+0500] {logging_mixin.py:190} INFO - [2025-03-22T12:47:27.814+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T12:47:28.330+0500] {processor.py:925} INFO - DAG(s) 'train_dag' retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T12:47:28.339+0500] {logging_mixin.py:190} INFO - [2025-03-22T12:47:28.339+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T12:47:28.361+0500] {logging_mixin.py:190} INFO - [2025-03-22T12:47:28.360+0500] {dag.py:4180} INFO - Setting next_dagrun for train_dag to None, run_after=None
+[2025-03-22T12:47:28.380+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.573 seconds
+[2025-03-22T12:48:21.958+0500] {processor.py:186} INFO - Started process (PID=6359) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T12:48:21.959+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T12:48:21.960+0500] {logging_mixin.py:190} INFO - [2025-03-22T12:48:21.960+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T12:48:22.342+0500] {processor.py:925} INFO - DAG(s) 'train_dag' retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T12:48:22.351+0500] {logging_mixin.py:190} INFO - [2025-03-22T12:48:22.351+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T12:48:22.453+0500] {logging_mixin.py:190} INFO - [2025-03-22T12:48:22.452+0500] {dag.py:4180} INFO - Setting next_dagrun for train_dag to None, run_after=None
+[2025-03-22T12:48:22.467+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.512 seconds
+[2025-03-22T12:48:46.483+0500] {processor.py:186} INFO - Started process (PID=6500) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T12:48:46.486+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T12:48:46.487+0500] {logging_mixin.py:190} INFO - [2025-03-22T12:48:46.487+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T12:48:46.953+0500] {logging_mixin.py:190} INFO - [2025-03-22T12:48:46.950+0500] {dagbag.py:484} ERROR - Failed to bag_dag: /home/ruslan/metro/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/ruslan/.local/lib/python3.10/site-packages/airflow/timetables/_cron.py", line 102, in validate
+    croniter(self._expression)
+  File "/home/ruslan/.local/lib/python3.10/site-packages/croniter/croniter.py", line 268, in __init__
+    self.expanded, self.nth_weekday_of_month = self.expand(
+  File "/home/ruslan/.local/lib/python3.10/site-packages/croniter/croniter.py", line 1113, in expand
+    return cls._expand(
+  File "/home/ruslan/.local/lib/python3.10/site-packages/croniter/croniter.py", line 852, in _expand
+    raise CroniterBadCronError("Exactly 5, 6 or 7 columns has to be specified for iterator expression.")
+croniter.croniter.CroniterBadCronError: Exactly 5, 6 or 7 columns has to be specified for iterator expression.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ruslan/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 479, in _process_modules
+    dag.validate()
+  File "/home/ruslan/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 845, in validate
+    self.timetable.validate()
+  File "/home/ruslan/.local/lib/python3.10/site-packages/airflow/timetables/_cron.py", line 104, in validate
+    raise AirflowTimetableInvalid(str(e))
+airflow.exceptions.AirflowTimetableInvalid: Exactly 5, 6 or 7 columns has to be specified for iterator expression.
+[2025-03-22T12:48:46.953+0500] {processor.py:927} WARNING - No viable dags retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T12:48:46.964+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.487 seconds
+[2025-03-22T12:49:11.018+0500] {processor.py:186} INFO - Started process (PID=7028) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T12:49:11.019+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T12:49:11.020+0500] {logging_mixin.py:190} INFO - [2025-03-22T12:49:11.020+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T12:49:11.378+0500] {logging_mixin.py:190} INFO - [2025-03-22T12:49:11.378+0500] {dagbag.py:387} ERROR - Failed to import: /home/ruslan/metro/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/ruslan/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ruslan/metro/airflow/dags/main.py", line 15, in <module>
+    dag = DAG(
+  File "/home/ruslan/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 650, in __init__
+    raise ValueError("DAG is missing the start_date parameter")
+ValueError: DAG is missing the start_date parameter
+[2025-03-22T12:49:11.379+0500] {processor.py:927} WARNING - No viable dags retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T12:49:11.390+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.376 seconds
+[2025-03-22T12:50:03.972+0500] {processor.py:186} INFO - Started process (PID=7694) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T12:50:03.973+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T12:50:03.975+0500] {logging_mixin.py:190} INFO - [2025-03-22T12:50:03.974+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T12:50:04.354+0500] {logging_mixin.py:190} INFO - [2025-03-22T12:50:04.353+0500] {dagbag.py:387} ERROR - Failed to import: /home/ruslan/metro/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/ruslan/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ruslan/metro/airflow/dags/main.py", line 15, in <module>
+    dag = DAG(
+  File "/home/ruslan/.local/lib/python3.10/site-packages/airflow/models/dag.py", line 650, in __init__
+    raise ValueError("DAG is missing the start_date parameter")
+ValueError: DAG is missing the start_date parameter
+[2025-03-22T12:50:04.354+0500] {processor.py:927} WARNING - No viable dags retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T12:50:04.366+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.396 seconds
+[2025-03-22T12:50:27.408+0500] {processor.py:186} INFO - Started process (PID=7841) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T12:50:27.408+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T12:50:27.410+0500] {logging_mixin.py:190} INFO - [2025-03-22T12:50:27.409+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T12:50:27.698+0500] {processor.py:925} INFO - DAG(s) 'train_dag' retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T12:50:27.844+0500] {logging_mixin.py:190} INFO - [2025-03-22T12:50:27.844+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T12:50:27.854+0500] {logging_mixin.py:190} INFO - [2025-03-22T12:50:27.854+0500] {dag.py:4180} INFO - Setting next_dagrun for train_dag to 2025-03-21 00:00:00+00:00, run_after=2025-03-21 00:02:00+00:00
+[2025-03-22T12:50:27.873+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.469 seconds
+[2025-03-22T12:52:02.444+0500] {processor.py:186} INFO - Started process (PID=9683) to work on /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T12:52:02.445+0500] {processor.py:914} INFO - Processing file /home/ruslan/metro/airflow/dags/main.py for tasks to queue
+[2025-03-22T12:52:02.446+0500] {logging_mixin.py:190} INFO - [2025-03-22T12:52:02.446+0500] {dagbag.py:588} INFO - Filling up the DagBag from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T12:52:02.818+0500] {processor.py:925} INFO - DAG(s) 'train_dag' retrieved from /home/ruslan/metro/airflow/dags/main.py
+[2025-03-22T12:52:02.824+0500] {logging_mixin.py:190} INFO - [2025-03-22T12:52:02.824+0500] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-22T12:52:02.835+0500] {logging_mixin.py:190} INFO - [2025-03-22T12:52:02.834+0500] {dag.py:4180} INFO - Setting next_dagrun for train_dag to 2025-03-21 00:28:00+00:00, run_after=2025-03-21 00:30:00+00:00
+[2025-03-22T12:52:02.848+0500] {processor.py:208} INFO - Processing /home/ruslan/metro/airflow/dags/main.py took 0.408 seconds

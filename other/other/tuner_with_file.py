@@ -26,6 +26,20 @@ def get_frequency(audio, sr):
     return freq_bins[peak_index]  # Возвращаем частоту с максимальной амплитудой
 
 
+def get_fret_from_frequency(string, frequency):
+    """Определяет, на каком ладу зафиксирован звук"""
+
+    # Частоты для лада (каждый лад увеличивает частоту на полутон)
+    SEMITONE_RATIO = 2 ** (1 / 12)
+    
+    open_freq = GUITAR_STRINGS[string]
+    # Пытаемся найти лад, на котором будет данная частота
+    fret = 0
+    while open_freq * SEMITONE_RATIO ** fret < frequency:
+        fret += 1
+    return fret if open_freq * SEMITONE_RATIO ** fret - frequency < 5 else None  # Точность до 5 Гц
+
+
 def get_tune(audio, sr):
     """Определяет наиболее близкую гитарную струну и отклонение частоты."""
     freq = get_frequency(audio, sr)  # Определяем основную частоту
